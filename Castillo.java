@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Clase Castillo con interacción mejorada
- */
 public class Castillo extends Escenario {
     private String nombre;
     private Torre torre;
