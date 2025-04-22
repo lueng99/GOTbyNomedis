@@ -1,14 +1,13 @@
 public class Escenario {
-    // Atributos según los requisitos
     private boolean tieneNPC;          // Indica si el escenario tiene personajes no jugadores
     private boolean permiteLucha;      // Indica si en el escenario se permite combatir
     private boolean interactuable;     // Indica si se puede interactuar con elementos del entorno
 
     // Constructor de la clase Escenario //
     public Escenario() {
-        this.tieneNPC = true;      // Sí tiene NPCs (según requisito)
-        this.permiteLucha = false; // No permite lucha (según requisito)
-        this.interactuable = false; // No es interactuable (según requisito)
+        this.tieneNPC = true;      // Sí tiene NPCs 
+        this.permiteLucha = false; // No permite lucha
+        this.interactuable = false; // No es interactuable 
     }
 
     // Métodos getter para acceder a los atributos//
