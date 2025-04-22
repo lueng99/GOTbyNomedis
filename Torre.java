@@ -1,8 +1,5 @@
 import java.util.Random;
 
-/**
- * Clase Torre con NPC e interacción obligatoria por fases
- */
 public class Torre {
     private String nombre;
     private int altura;
