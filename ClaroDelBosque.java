@@ -1,6 +1,3 @@
-/**
- * Clase ClaroDelBosque que representa el área iluminada del bosque
- */
 public class ClaroDelBosque extends Escenario {
     private String nombre;
     private boolean fuenteDescubierta;
