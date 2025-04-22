@@ -1,6 +1,3 @@
-/**
- * Clase Bosque que representa un escenario natural con acceso al Claro del Bosque
- */
 public class Bosque extends Escenario {
     private String nombre;
     private boolean claroDescubierto;
@@ -14,9 +11,6 @@ public class Bosque extends Escenario {
         this.claroDescubierto = false;
     }
 
-    /**
-     * Método para explorar el bosque
-     */
     public void explorar() {
         System.out.println("\nEstás en el " + nombre + ". El aire huele a musgo y hojas frescas.");
         
@@ -24,8 +18,7 @@ public class Bosque extends Escenario {
             System.out.println("Entre los árboles, ves un sendero que parece llevar a un claro iluminado.");
             System.out.println("¿Quieres seguir el sendero hacia el claro? (s/n)");
             
-            // En un sistema real usarías Scanner, aquí simplificamos
-            boolean decision = true; // Siempre va al claro (según requisitos)
+            boolean decision = true; // Siempre va al claro
             
             if(decision) {
                 irAlClaro();
@@ -47,7 +40,6 @@ public class Bosque extends Escenario {
         System.out.println("El Claro del Bosque parece un lugar mágico y tranquilo.");
         
         // Aquí se cargaría el escenario ClaroDelBosque
-        // En un sistema completo sería: cargarEscenario(new ClaroDelBosque());
     }
 
     @Override
