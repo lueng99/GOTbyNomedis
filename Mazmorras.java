@@ -1,8 +1,4 @@
 import java.util.Scanner;
-
-/**
- * Clase Mazmorras actualizada para integración con Torre
- */
 public class Mazmorras {
     private int numeroCeldas;
     private boolean tienePrisioneros;
@@ -24,10 +20,9 @@ public class Mazmorras {
 
         if (tienePrisioneros) {
             System.out.println("¡Hay prisioneros en las celdas!");
-            // Aquí puedes agregar lo que quieras que pase con los prisioneros
+            
         } else {
             System.out.println("Las celdas están vacías.");
-            // Aquí puedes agregar otro tipo de evento si quieres
         }
 
         completarMazmorras(); // Llamada para indicar que se completaron las mazmorras
