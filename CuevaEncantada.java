@@ -1,6 +1,3 @@
-/**
- * Clase CuevaEncantada - Escenario final con NPC y dragón
- */
 public class CuevaEncantada extends Escenario {
     private String nombre;
     private boolean dragonDerrotado;
@@ -30,8 +27,7 @@ public class CuevaEncantada extends Escenario {
         
         if(!dragonDerrotado) {
             System.out.println("\n¿Quieres adentrarte en la cueva para enfrentar al dragón? (s/n)");
-            // En implementación real usarías Scanner
-            boolean decision = true; // Siempre se enfrenta al dragón (según tu preferencia)
+            boolean decision = true; // Siempre se enfrenta al dragón 
             
             if(decision) {
                 iniciarBatallaDragon();
@@ -62,10 +58,7 @@ public class CuevaEncantada extends Escenario {
         System.out.println("\nTe adentras en las profundidades de la cueva...");
         System.out.println("De repente, un enorme dragón emerge de la oscuridad!");
         
-        // Aquí iría tu sistema de combate específico
-        // Por ejemplo:
-        // Dragon dragonFinal = new Dragon(500, 25); // Vida y daño
-        // boolean victoria = sistemaCombate.batalla(jugador, dragonFinal);
+        // Aquí va el sistema de combate
         
         // Simulamos una victoria para el ejemplo
         this.dragonDerrotado = true;
